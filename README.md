@@ -1,6 +1,7 @@
 # Monopoly-CS-WPF
-A new "hardcore" version of the classic game. This project is a version of monopoly made in C# and WPF. A new fun version is implemented where
-many old rules still aply but there are a lot of new ones too, which make the game unpredicted. More about the rules in the section Game Rules
+A new "hardcore" version of the classic game. This project is a version of monopoly written in C#. The goal was to implement the logic of Monopoly with new variations, using the MVC pattern. WPF and Visual studio ide were used to complete this project.  
+<br> **About the idea** <br> A new fun version is implemented where
+many old rules still aply but there are a lot of new ones too, which make the game unpredictable. More about the rules in the section <a href="Rules of the game">Rules of the game</a>.
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org) 
 <img src="images/build_passing.svg" alt="Passing build">
@@ -11,17 +12,21 @@ many old rules still aply but there are a lot of new ones too, which make the ga
 
 <div align="center"><img src="images/image1.png" alt="Passing build"></div>
 
+# Game Files and Demo
+
+- The code with the ui elements, classes (models e.t.c.) and the assets are located in MonopolyGame folder.
+- A windows executable is located at Monopoly_Executable folder.
 
 # Rules of the game
 
-## Extra (new) rules implemented in our “hardcore” edition
+### Extra (new) rules implemented in our “hardcore” edition
 
 - When a player chooses to buy a property, there is a possibility that something will go wrong (for example a possibility to lose the money or meet a thief on the way). In that occasion the player loses the money of the property’s worth and takes nothing in return. (Unfortunate player). There is a 70% possibility that the player will buy the property and 30%, one of the “unfortunate” results to occur and cause the player to lose the money of the investment.
 - There are no hotels. So players can only build houses.
 
 <div align="center"><img src="images/image2.png" alt="Passing build"></div>
 
-## And the old rules that still apply to this game
+### And the old rules that still apply to this game
 
 - 2-4 players can play.
 - A game is played as a series of rounds. Each player takes a turn till a player wins or everybody except one player quits (1 player only is left).
@@ -42,17 +47,13 @@ many old rules still aply but there are a lot of new ones too, which make the ga
 - A player goes to jail where he has to pay fine if he/she draws the card “Go to jail” or rolls “doubles” for 3 times.
 - If a player is sent to jail, he/she stays there for some rounds.
 
-## And the old rules that do NOT apply to this game
+### And the old rules that do NOT apply to this game
 
 <div align="center"><img src="images/not_apply.gif" alt="no gif"></div>
 
 - A player CANNOT build a hotel when he/she has already purchased 4 houses in that property. This feauture was not implementes not because of it complexity 
 but because it may give an advantage to the player who firsts builds more hotels and we don't want that in that version.
 - Of course there are many versions of monopoly and more rules may not have been implemented
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? Send an email at blabla@blabla.gr
 
 
 ## Copyright and License
