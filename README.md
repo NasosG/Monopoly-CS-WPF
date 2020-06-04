@@ -8,13 +8,10 @@ many old rules still aply but there are a lot of new ones too, which make the ga
 
 
 # Monopoly Hardcore Edition
-<div align="center">
 ![](images/image1.png)
-![](images/image2.png)
-<br>
-</div>
-#Rules of the game
 
+#Rules of the game
+![](images/image2.png)
 **Extra (new) rules implemented in our “hardcore” edition**
 
 - When a player chooses to buy a property, there is a possibility that something will go wrong (for example a possibility to lose the money or meet a thief on the way). In that occasion the player loses the money of the property’s worth and takes nothing in return. (Unfortunate player). There is a 70% possibility that the player will buy the property and 30%, one of the “unfortunate” results to occur and cause the player to lose the money of the investment.
