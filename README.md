@@ -14,14 +14,14 @@ many old rules still aply but there are a lot of new ones too, which make the ga
 
 # Rules of the game
 
-**Extra (new) rules implemented in our “hardcore” edition**
+## **Extra (new) rules implemented in our “hardcore” edition**
 
 - When a player chooses to buy a property, there is a possibility that something will go wrong (for example a possibility to lose the money or meet a thief on the way). In that occasion the player loses the money of the property’s worth and takes nothing in return. (Unfortunate player). There is a 70% possibility that the player will buy the property and 30%, one of the “unfortunate” results to occur and cause the player to lose the money of the investment.
 - There are no hotels. So players can only build houses.
 
 <div align="center"><img src="images/image2.png" alt="Passing build"></div>
 
-**And the old rules that still apply to this game**
+## **And the old rules that still apply to this game**
 
 <br>
 - 2-4 players can play.
@@ -43,7 +43,7 @@ many old rules still aply but there are a lot of new ones too, which make the ga
 - A player goes to jail where he has to pay fine if he/she draws the card “Go to jail” or rolls “doubles” for 3 times.
 - If a player is sent to jail, he/she stays there for some rounds.
 
-**And the old rules that do NOT apply to this game**
+## **And the old rules that do NOT apply to this game**
 
 <div align="center"><img src="images/not_apply.gif" alt="no gif"></div>
 
