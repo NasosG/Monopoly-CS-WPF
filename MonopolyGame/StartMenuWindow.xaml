@@ -1,0 +1,66 @@
+﻿<Window x:Class="MonopolyGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MonopolyGame"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        Title="Main Menu" Height="600" Width="800" KeyDown="OnKeyDownHandler">
+    <Grid>
+        <!-- perhaps to be used later -->
+        <!-- <Image Margin="469,0,133.6,468.4" HorizontalAlignment="Right" Source="images/Untitled.png" Stretch="Fill" Height="102" Width="191"/> -->
+
+        <!-- Button start customization -->
+        <Button x:Name="Start" Content="Start" HorizontalAlignment="Center" FontSize="18" Height="35" Margin="0,110,0,0" VerticalAlignment="Top" Width="140" Click="StartButton" BorderThickness="1" FontStretch="UltraExpanded" FontWeight="DemiBold">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="2"/>
+                </Style>
+            </Button.Resources>
+            <Button.Background>
+                <SolidColorBrush Color="#FFFFFF" Opacity="0.50" />
+            </Button.Background>
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Transparent"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+
+        <!-- Button quit customization -->
+        <Button x:Name="quit" Content="Quit" HorizontalAlignment="Center" FontSize="18" Height="35" Margin="0,161,0,0" VerticalAlignment="Top" Width="140" Click="QuitApp" BorderThickness="1" FontStretch="UltraExpanded" FontWeight="DemiBold">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="2"/>
+                </Style>
+            </Button.Resources>
+            <Button.Background>
+                <SolidColorBrush Color="#FFFFFF" Opacity="0.50" />
+            </Button.Background>
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Transparent"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+
+
+        <!-- Textblock "Monopoly" at the top -->
+        <TextBlock x:Name="textBlock" FontFamily="Comic Sans MS" FontSize="42" FontStretch="UltraExpanded" FontWeight="UltraBold" TextAlignment="Center" TextWrapping="Wrap" Text="Monopoly" VerticalAlignment="Top" Width="216" Margin="0,10,0,0"/>
+        <!-- Image at the bottom -->
+        <Image Margin="222,265,222,49" Source="images/pngfind.com-scumbag-steve-hat-png-1968864.png" Stretch="Uniform"/>
+        <Image Margin="488,28,138.6,444.4" Source="hardcore.png" HorizontalAlignment="Center" Stretch="None"/>
+
+    </Grid>
+</Window>
