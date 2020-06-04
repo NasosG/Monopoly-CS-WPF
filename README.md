@@ -9,11 +9,12 @@ many old rules still aply but there are a lot of new ones too, which make the ga
 
 # Monopoly Hardcore Edition
 
-![](images/image1.png)
+<img src="images/image1.png" alt="Passing build">
+
 
 #Rules of the game
 
-![](images/image2.png)
+<img src="images/image2.png" alt="Passing build">
 
 **Extra (new) rules implemented in our “hardcore” edition**
 
