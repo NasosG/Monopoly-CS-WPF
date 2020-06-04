@@ -60,7 +60,7 @@ Have a bug or an issue with this template? Send an email at blabla@blabla.gr
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2020 © <a href="http://fvcproductions.com" target="_blank">FVCproductions</a>.
+- Copyright 2020 © <a href="http://fvcproductions.com" target="_blank">NasosGS</a>.
 
 
 ## Copyright claims
