@@ -1,7 +1,7 @@
 # Monopoly-CS-WPF
-A new "hardcore" version of the classic game. This project is a version of monopoly written in C#. The goal was to implement the logic of Monopoly with new variations, using the MVC pattern. WPF and Visual studio ide were used to complete this project.  
-<br> **About the idea** <br> A new fun version is implemented where
-many old rules still aply but there are a lot of new ones too, which make the game unpredictable. More about the rules in the section [Rules of the game.](#Rules of the game)
+In this project an original "hardcore" version of the classic game, written in C#, is implemented. The goal was to implement the logic of Monopoly with new variations, using the MVC pattern. WPF and Visual studio ide were used to complete this project.  
+<br> **About the idea** <br> An original fun version is implemented where
+many old rules still aply, but there are a lot of new ones too, which make the game unpredictable. More about the rules in the section "Rules of the game".
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org) 
 <img src="images/build_passing.svg" alt="Passing build">
@@ -10,7 +10,7 @@ many old rules still aply but there are a lot of new ones too, which make the ga
 
 # Monopoly Hardcore Edition
 
-<div align="center"><img src="images/image1.png" alt="Passing build"></div>
+<div align="center"><img src="images/image1.png" alt="image1"></div>
 
 # Game Files and Demo
 
@@ -24,7 +24,7 @@ many old rules still aply but there are a lot of new ones too, which make the ga
 - When a player chooses to buy a property, there is a possibility that something will go wrong (for example a possibility to lose the money or meet a thief on the way). In that occasion the player loses the money of the property’s worth and takes nothing in return. (Unfortunate player). There is a 70% possibility that the player will buy the property and 30%, one of the “unfortunate” results to occur and cause the player to lose the money of the investment.
 - There are no hotels. So players can only build houses.
 
-<div align="center"><img src="images/image2.png" alt="Passing build"></div>
+<div align="center"><img src="images/image2.png" alt="image2"></div>
 
 ### And the old rules that still apply to this game
 
