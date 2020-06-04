@@ -23,6 +23,7 @@ many old rules still aply but there are a lot of new ones too, which make the ga
 
 **And the old rules that still apply to this game**
 
+<br>
 - 2-4 players can play.
 - A game is played as a series of rounds. Each player takes a turn till a player wins or everybody except one player quits (1 player only is left).
 - The players play on a board of specific squares (40 squares).
@@ -32,7 +33,6 @@ many old rules still aply but there are a lot of new ones too, which make the ga
 - The game board is circle, the “go” square in the beginning or the end of a round (1st square in the down, right corner) follows the 40th square on the board.
 - A player can buy a property if the property is not owned and the player can afford to buy the property . If the player agrees to buy it, he/she pays the Bank the amount shown on the property space and receives the deed for that property. 
 - A player can build a house when he/she owns every property of the same colour.
-- A player can build a hotel when he/she has already purchased 4 houses in that property.
 - If the player lands on or passes Go in the course of his or her turn, he or she receives $200 from the Bank. 
 - A player pays taxes or another player if the square is owned by another player or it is a taxes square.
 - If the player lands on his or her own property, or on property which is owned by another player but currently mortgaged, nothing happens.
@@ -43,6 +43,13 @@ many old rules still aply but there are a lot of new ones too, which make the ga
 - A player goes to jail where he has to pay fine if he/she draws the card “Go to jail” or rolls “doubles” for 3 times.
 - If a player is sent to jail, he/she stays there for some rounds.
 
+**And the old rules that do NOT apply to this game**
+
+<div align="center"><img src="images/not_apply.gif" alt="no gif"></div>
+
+- A player CANNOT build a hotel when he/she has already purchased 4 houses in that property. This feauture was not implementes not because of it complexity 
+but because it may give an advantage to the player who firsts builds more hotels and we don't want that in that version.
+- Of course there are many versions of monopoly and more rules may not have been implemented
 
 ## Bugs and Issues
 
@@ -51,10 +58,13 @@ Have a bug or an issue with this template? Send an email at blabla@blabla.gr
 
 ## Copyright and License
 
-Copyright 2020 licence not yet
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+- Copyright 2020 © <a href="http://fvcproductions.com" target="_blank">FVCproductions</a>.
 
 
 ## Copyright claims
-Many images used in the project belong to their respective creators/authors. No claim by me & those who use this project!!
+Some images used in the project belong to their respective creators/authors. No claim by me & those who use this project!!
 
 **Thanks for reading**
