@@ -8,10 +8,11 @@ many old rules still aply but there are a lot of new ones too, which make the ga
 
 
 # Monopoly Hardcore Edition
-
+<div align="center">
 ![](images/image1.png)
 ![](images/image2.png)
-
+<br>
+</div>
 #Rules of the game
 
 **Extra (new) rules implemented in our “hardcore” edition**
