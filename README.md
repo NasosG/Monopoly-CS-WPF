@@ -1,7 +1,7 @@
 # Monopoly-CS-WPF
 A new "hardcore" version of the classic game. This project is a version of monopoly written in C#. The goal was to implement the logic of Monopoly with new variations, using the MVC pattern. WPF and Visual studio ide were used to complete this project.  
 <br> **About the idea** <br> A new fun version is implemented where
-many old rules still aply but there are a lot of new ones too, which make the game unpredictable. More about the rules in the section <a href="Rules of the game">Rules of the game</a>.
+many old rules still aply but there are a lot of new ones too, which make the game unpredictable. More about the rules in the section [Rules of the game.](#support)
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org) 
 <img src="images/build_passing.svg" alt="Passing build">
@@ -53,7 +53,7 @@ many old rules still aply but there are a lot of new ones too, which make the ga
 
 - A player CANNOT build a hotel when he/she has already purchased 4 houses in that property. This feauture was not implementes not because of it complexity 
 but because it may give an advantage to the player who firsts builds more hotels and we don't want that in that version.
-- Of course there are many versions of monopoly and more rules may not have been implemented
+- Of course there are many versions of monopoly and more rules may not have been implemented.
 
 
 ## Copyright and License
@@ -61,7 +61,7 @@ but because it may give an advantage to the player who firsts builds more hotels
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2020 © <a href="http://fvcproductions.com" target="_blank">NasosGS</a>.
+- Copyright 2020 © <a href="http://fvcproductions.com" target="_blank">NasosG</a>.
 
 
 ## Copyright claims
