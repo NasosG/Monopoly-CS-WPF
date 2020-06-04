@@ -9,17 +9,17 @@ many old rules still aply but there are a lot of new ones too, which make the ga
 
 # Monopoly Hardcore Edition
 
-<img src="images/image1.png" alt="Passing build">
+<div align="center"><img src="images/image1.png" alt="Passing build"></div>
 
 
 # Rules of the game
-
-<img src="images/image2.png" alt="Passing build">
 
 **Extra (new) rules implemented in our “hardcore” edition**
 
 - When a player chooses to buy a property, there is a possibility that something will go wrong (for example a possibility to lose the money or meet a thief on the way). In that occasion the player loses the money of the property’s worth and takes nothing in return. (Unfortunate player). There is a 70% possibility that the player will buy the property and 30%, one of the “unfortunate” results to occur and cause the player to lose the money of the investment.
 - There are no hotels. So players can only build houses.
+
+<div align="center"><img src="images/image2.png" alt="Passing build"></div>
 
 **And the old rules that still apply to this game**
 
