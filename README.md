@@ -1,7 +1,7 @@
 # Monopoly-CS-WPF
 A new "hardcore" version of the classic game. This project is a version of monopoly written in C#. The goal was to implement the logic of Monopoly with new variations, using the MVC pattern. WPF and Visual studio ide were used to complete this project.  
 <br> **About the idea** <br> A new fun version is implemented where
-many old rules still aply but there are a lot of new ones too, which make the game unpredictable. More about the rules in the section [Rules of the game.](# Rules of the game)
+many old rules still aply but there are a lot of new ones too, which make the game unpredictable. More about the rules in the section [Rules of the game.](#Rules of the game)
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org) 
 <img src="images/build_passing.svg" alt="Passing build">
