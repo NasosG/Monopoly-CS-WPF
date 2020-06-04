@@ -12,7 +12,7 @@ many old rules still aply but there are a lot of new ones too, which make the ga
 <img src="images/image1.png" alt="Passing build">
 
 
-#Rules of the game
+# Rules of the game
 
 <img src="images/image2.png" alt="Passing build">
 
