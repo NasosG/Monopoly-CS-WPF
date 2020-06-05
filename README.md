@@ -3,7 +3,7 @@ In this project an original "hardcore" version of the classic game, written in C
 <br> **About the idea** <br> An original fun version is implemented where
 many old rules still aply, but there are a lot of new ones too, which make the game unpredictable. More about the rules in the section "Rules of the game".
 
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org) 
+[![License](images/license-GPL-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 <img src="images/build_passing.svg" alt="Passing build">
 <img src="https://img.shields.io/badge/windows-compatible-green.svg" alt="Windows compatible">
 
@@ -58,10 +58,10 @@ but because it may give an advantage to the player who firsts builds more hotels
 
 ## Copyright and License
 
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+[![License](images/license-GPL-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2020 © <a href="http://fvcproductions.com" target="_blank">NasosG</a>.
+- **[GPL version 3 license](https://opensource.org/licenses/GPL-3.0)**
+- Copyright 2020 © <a href="https://github.com/NasosG" target="_blank">NasosG</a>.
 
 
 ## Copyright claims
