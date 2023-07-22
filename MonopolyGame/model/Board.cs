@@ -207,7 +207,7 @@ namespace MonopolyGame
 
         public void AddSalary(Player player)
         {
-            player.addBankAccount(200) ;
+            player.addBankAccount(200);
             MessageBox.Show(player.name + " gains 200\n");
         }
 
@@ -236,13 +236,11 @@ namespace MonopolyGame
                 MessageBox.Show(player.name + "! You have won the lottery! Collect $200!\n", "Chance Card");
                 AddSalary(player);
             }
-            else if (Chance == 2)
-            {
+            else if (Chance == 2) {
                 MessageBox.Show(player.name + "! Pay poor tax of $15!\n", "Chance Card");
                 ChangeMoney(player, -15);
             }
-            else if (Chance == 3)
-            {
+            else if (Chance == 3) {
                 MessageBox.Show(player.name + "! You have won a crossword competition. Collect $100!\n", "Chance Card");
                 ChangeMoney(player, 100);
             }
@@ -261,16 +259,14 @@ namespace MonopolyGame
             else if (Chance < 16) return 2;     //[possibility = 10%]
             else if (Chance < 18) return 3;     //[possibility = 10%]
             else return 4;                      //[possibility = 10%]
-            //else return 5;                      //[possibility = 10%]
         }
 
         // Change money amount(increase or decrease)
         public void ChangeMoney(Player player, int money)
         {
             //MessageBox.Show(player.name + " loses $" + losingMoney + "\n");
-            player.addBankAccount(money); ;
-            if (player.BankAccount < 0)
-            {
+            player.addBankAccount(money);
+            if (player.BankAccount < 0) {
                 player.Bankrupt = true;
                 MessageBox.Show(player.name + " gets out of the game. \n");
             }
@@ -303,31 +299,30 @@ namespace MonopolyGame
             if (land.owner == null) {
                 if (player.BankAccount >= land.landPrice)
                     player.couldBuyLand = true;
-
             }
             else if (land.owner != player) {
-                    int total;
-                    if (land.colour == "black") {   //railroad
-                        // 2 ^ railways-1 because
-                        // for 1 => (2^0) railway we get 25, for 2 => (2^1)*25 = 50, for 3 => (2^2)*25 = 100, for 4 => (2^3)*25 = 200
-                        total = (int)Math.Pow(2, land.owner.railways-1) * 25;
-                    }
-                    else if (land.colour == "utility") {    //electric company or water works
-                        if(land.owner.utility > 1) //if both 2 utilities are owned
-                            total = 10 * (dice1Value + dice2Value);
-                        else total = 4 * (dice1Value + dice2Value);
-                    }
-                    else
-                        total = land.passLand + land.passHouse * land.building; //standard payment plus number of houses multiplied by houses' value
-                    player.addBankAccount(-total);
-                    land.owner.addBankAccount (total);
-                    MessageBox.Show(player.name + " pays " + total+ " to "+ land.owner.name + "\n");
-                    if (player.BankAccount < 0) {
-                        player.Bankrupt = true;
-                        MessageBox.Show(player.name + " gets out of the game because he/she is bankrupt\n");
-                    }
+                int total;
+                if (land.colour == "black") {   //railroad
+                    // 2 ^ railways-1 because
+                    // for 1 => (2^0) railway we get 25, for 2 => (2^1)*25 = 50, for 3 => (2^2)*25 = 100, for 4 => (2^3)*25 = 200
+                    total = (int)Math.Pow(2, land.owner.railways-1) * 25;
+                }
+                else if (land.colour == "utility") {    //electric company or water works
+                    if (land.owner.utility > 1) //if both 2 utilities are owned
+                        total = 10 * (dice1Value + dice2Value);
+                    else total = 4 * (dice1Value + dice2Value);
+                }
+                else
+                    total = land.passLand + land.passHouse * land.building; //standard payment plus number of houses multiplied by houses' value
+                player.addBankAccount(-total);
+                land.owner.addBankAccount (total);
+                MessageBox.Show(player.name + " pays " + total+ " to "+ land.owner.name + "\n");
+                if (player.BankAccount < 0) {
+                    player.Bankrupt = true;
+                    MessageBox.Show(player.name + " gets out of the game because he/she is bankrupt\n");
+                }
             }
-            else if ( land.colour == "black") {     //railroad
+            else if (land.colour == "black") {     //railroad
                 Console.WriteLine("Cannot buy house");
             }
             else if (land.colour == "utility") {    //electric company or water works
@@ -335,9 +330,9 @@ namespace MonopolyGame
             }
             // can buy house when all 3 properties of the same colour are owned
             else if (player.dominates[land.colour] > 2 && land.building < 2) {
-                    if (player.BankAccount >= land.housePrice)
-                        player.couldBuyHouse = true;
-                    Console.WriteLine("Can buy house");
+                if (player.BankAccount >= land.housePrice)
+                    player.couldBuyHouse = true;
+                Console.WriteLine("Can buy house");
             }
             // can buy house when all 2 properties of the same colour are owned as blue and brown regions have only 2 properties
             else if (player.dominates[land.colour] > 1 && land.building < 1 && (land.colour == "blue" || land.colour == "brown")) {
@@ -348,31 +343,31 @@ namespace MonopolyGame
 
         }
 
-            public void BuyLand(Player player, Square land)
-            {
-                MessageBox.Show(player.name + " buys " + land.name + "\n");
-                Console.WriteLine("BuyLand");
-                player.addBankAccount(-land.landPrice);
+        public void BuyLand(Player player, Square land)
+        {
+            MessageBox.Show(player.name + " buys " + land.name + "\n");
+            Console.WriteLine("BuyLand");
+            player.addBankAccount(-land.landPrice);
 
-                if (player.BankAccount < 0) {
-                    player.Bankrupt = true;
-                }
-
-                land.owner = player;
-                String colour = land.colour;
-                if (land.colour == "black") {           //railroad
-                    player.railways++;
-                }
-                else if (land.colour == "utility") {    //electric company or water works
-                    player.utility++;
-                }
-                if (player.dominates.ContainsKey(land.colour)) {
-                    player.dominates[land.colour]++;
-                }
-                else {
-                    player.dominates[land.colour] = 1;
-                }
+            if (player.BankAccount < 0) {
+                player.Bankrupt = true;
             }
+
+            land.owner = player;
+            String colour = land.colour;
+            if (land.colour == "black") {           //railroad
+                player.railways++;
+            }
+            else if (land.colour == "utility") {    //electric company or water works
+                player.utility++;
+            }
+            if (player.dominates.ContainsKey(land.colour)) {
+                player.dominates[land.colour]++;
+            }
+            else {
+                player.dominates[land.colour] = 1;
+            }
+        }
 
         public void BuyHouse(Player player, Square land)
         {
@@ -384,7 +379,6 @@ namespace MonopolyGame
             }
             land.building++;
         }
-
 
         // analysis of the type of grid according to player’s location, and conduct relevant function on player after look up the dictionary
         public void FunctionOnPlayer(Player player)
